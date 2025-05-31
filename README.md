@@ -1,5 +1,7 @@
 # Django Portfoli🤖
   Welcome to the Djanog Portfoli Porject, This repository hosts a fully functional portfoli website designed with Bootstrap on Django framework. It offer a visually appealing and user-friendly interface
+  ![Alt Text](https://github.com/santosholi01/Portfolio_Django_Bootstrap/blob/4ab7531bd18db6d8af1a3739c55e48fb9295e315/demo.png)
+
 
 
 ## Overview🪟
