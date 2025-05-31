@@ -29,10 +29,20 @@ html{
 .custom-navbar{
     background-color: #0C0C0C;
 }
+/* education section*/
+#education .container {
+  transform: scale(1.3);
+  transform-origin: center top;
+  transition: transform 0.3s ease;
+}
+
+
+
+
 /*style sheet for skill icons*/
   .skills-section .hexagon-icon {
-    width: 100px;
-    height: 115px;
+    width: 170px;
+    height: 173px;
     background-color: #2a2540;
     clip-path: polygon(
       50% 0%, 93% 25%, 93% 75%,
@@ -55,15 +65,18 @@ html{
   .hexagon.project-card {
   background-color: #14142B;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}-icon:hover {
-    transform: scale(1.1);
-  }
+}
+/*when curser move zoom out*/
+.skills-section .hexagon-icon:hover {
+  transform: scale(1.2);
+}
+  
 
   /* project section */
 
 .project-card {
   background-color: #14142B;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;/*when curser move there, make movement to section*/
 }
 
 .project-card:hover {
@@ -82,7 +95,7 @@ html{
 /* certificate card*/
 .cert-card{
   background-color: #1c1c2b;
-  transition: transform 0.s ease;
+  transition: transform 0.2s ease;
   height: 100%;
 }
 
