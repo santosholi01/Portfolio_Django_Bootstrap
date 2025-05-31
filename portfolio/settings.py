@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-3ys)lfx_=(b1#dga+36m#9+!g1g+@x9$w$i79kn$*ve&1m*@&o
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS=["https://portfoliodjangobootstrap-production.up.railway.app/", "http://127.0.0.1:8080"]
 
 
 # Application definition
