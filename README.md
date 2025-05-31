@@ -20,9 +20,9 @@
 ## implement
   1. First create the folder and open any source Code Editor.
   2. Create the virtual Enviroment for this project(python virnev)
-        ->pip install virtualenv
-        ->python -m virtualenv nameofthevirtualenviroment(it can be any things as you like)
-        ->nameofthevirtualenvironment\Scrits\activate
+->pip install virtualenv
+->python -m virtualenv nameofthevirtualenviroment(it can be any things as you like)
+->nameofthevirtualenvironment\Scrits\activate
  4. Then you need to install Djnago
       ->pip install Django (for version check ->pip freeze or django-admin --version)
  5.Now, You need to create project within Django
