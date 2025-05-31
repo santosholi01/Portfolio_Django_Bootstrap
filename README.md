@@ -2,8 +2,8 @@
   Welcome to the Djanog Portfoli Porject, This repository hosts a fully functional portfoli website designed with Bootstrap on Django framework. It offer a visually appealing and user-friendly interface
 
 
-## overview🪟
-    This is easy to develop and interact as backend development is easy on django and Bootstrap framwork for html , css and js.
+## Overview🪟
+   this is easy to develop and interact as backend is provided by Django and Bootstrap for Frontend .
 
 
 ## Live Demo🪧
