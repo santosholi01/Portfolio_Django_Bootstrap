@@ -25,7 +25,7 @@
 ->nameofthevirtualenvironment\Scrits\activate
  4. Then you need to install Djnago
       ->pip install Django (for version check ->pip freeze or django-admin --version)
- 5.Now, You need to create project within Django
+ 5. Now, You need to create project within Django
     ->django-admin startproject projectname(namme of your project)
 6. Create app within the project
      ->python manage.py startapp appname
