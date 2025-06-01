@@ -116,3 +116,29 @@ html{
 .swiper-wrapper{
   align-items: stretch;
 }
+
+/* === Mobile Responsive Fixes === */
+@media (max-width: 768px) {
+  .about-container {
+    transform: none !important;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  #education .container {
+    transform: none !important;
+  }
+
+  .skills-section .hexagon-icon {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .skills-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+ /**/
