@@ -1,82 +1,86 @@
-body{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-section{
-    scroll-snap-align: start;
-}
-html{
-    scroll-behavior: smooth;
-}
-
-.fullscreen-section{
-    background-color:#09122C;
-    color: white;
-
-}
-.about-container{
-    padding: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    transform: scale(1.35);
-    transform-origin: right center;
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-
-.custom-navbar{
-    background-color: #0C0C0C;
+section {
+  scroll-snap-align: start;
 }
-/* education section*/
+
+.fullscreen-section {
+  background-color: #09122C;
+  color: white;
+}
+
+/*Navbar */
+.custom-navbar {
+  background-color: #0C0C0C;
+}
+
+/* About Section */
+.about-container {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transform: scale(1.35);
+  transform-origin: right center;
+}
+
+/* Education Section */
 #education .container {
   transform: scale(1.3);
   transform-origin: center top;
   transition: transform 0.3s ease;
 }
 
-
-
-
-/*style sheet for skill icons*/
-  .skills-section .hexagon-icon {
-    width: 170px;
-    height: 173px;
-    background-color: #2a2540;
-    clip-path: polygon(
-      50% 0%, 93% 25%, 93% 75%,
-      50% 100%, 7% 75%, 7% 25%
-    );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease;
-  }
-
-  .hexagon-icon img {
-    max-width: 60%;
-    height: auto;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
-  }
-
-  .hexagon.project-card {
-  background-color: #14142B;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Skills Section */
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-/*when curser move zoom out*/
+
+.skills-section .hexagon-icon {
+  width: 170px;
+  height: 173px;
+  background-color: #2a2540;
+  clip-path: polygon(
+    50% 0%, 93% 25%, 93% 75%,
+    50% 100%, 7% 75%, 7% 25%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
 .skills-section .hexagon-icon:hover {
   transform: scale(1.2);
 }
-  
 
-  /* project section */
+.hexagon-icon img {
+  max-width: 60%;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+}
 
+/*  Project Cards */
 .project-card {
   background-color: #14142B;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;/*when curser move there, make movement to section*/
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
@@ -84,6 +88,7 @@ html{
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
+/* Badge Colors*/
 .badge.bg-pink {
   background-color: #ec4899;
 }
@@ -92,32 +97,18 @@ html{
   background-color: #8b5cf6;
 }
 
-/* certificate card*/
-.cert-card{
+/* Certificate Cards */
+.cert-card {
   background-color: #1c1c2b;
   transition: transform 0.2s ease;
   height: 100%;
 }
 
-.cert-card:hover{
+.cert-card:hover {
   transform: translateY(-5px);
 }
 
-.swiper-slide {
-  width: auto !important;
-  flex: 0 0 auto;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-}
-
-.swiper-wrapper{
-  align-items: stretch;
-}
-
-/* === Mobile Responsive Fixes === */
+/*  Responsive Fixes */
 @media (max-width: 768px) {
   .about-container {
     transform: none !important;
@@ -136,9 +127,7 @@ html{
     padding: 10px;
   }
 
-  .skills-section {
-    flex-wrap: wrap;
-    justify-content: center;
+  .cert-card {
+    max-width: 100%;
   }
 }
- /**/

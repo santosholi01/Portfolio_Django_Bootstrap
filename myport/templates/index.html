@@ -113,60 +113,48 @@ home
     </div>
 </section>
 
-<!-- certifications section -->
+<!-- Certifications Section -->
 <section id="certifications" class="vh-100 d-flex align-items-center justify-content-center fullscreen-section">
   <div class="container text-center">
     <p class="text-uppercase text-secondary small mb-2">Continuous learning</p>
     <h2 class="fw-bold display-5 mb-5">Certifications</h2>
 
-    <!--swiper container-->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper d-flex align-items-stretch justify-content-center">
-
-
-        <!--certfication card 1-->
-        <div class="swiper-slide">
-          <div class="cert-card p-4 rounded-4 text-start shadow-lg mx-auto" style="max-width: 350px;">
-            <img src="{% static 'ISC2.png' %}" alt="Cyber" class="mb-3" style="height: 40px;">
-            <h5 class="fw-semibold">Cyber Security</h5>
-            <p class="text-muted small mb-1">network, access control, response plans</p>
-            <p class="text-secondary small">May 2025</p>
-            <ul class="small">
-              <li>Security principles</li>
-              <li>Incident response</li>
-              <li>Access control</li>
-
-            </ul>
-            <a href="https://www.isc2.org/Dashboard/Courses-Exams" class="btn btn-sm btn-outline-light mt-2" target="_blank"
-            rel="noopener noreferrer">View
-              Credential</a>
-          </div>
-        </div>
-
-
-        <!--certification 2-->
-        <div class="swiper-slide">
-          <div class="cert-card p-4 rounded-4 text-start shadow-lg mx-auto" style="max-width: 350px;">
-            <img src="{% static 'flutter.png' %}" alt="django" class="mb-3" style="height: 40px;">
-            <h5 class="fw-semibold">Flutter</h5>
-            <p class="text-muted small mb-1">completion</p>
-            <p class="text-secondary small">2024</p>
-            <ul class="small">
-              <li>App Development</li>
-              <li> APIs</li>
-              <li>Authentication & Deployment</li>
-            </ul>
-            <a href="{% static 'certificate.pdf' %}" class="btn btn-sm btn-outline-light mt-2" target="_blank" rel="noopener noreferrer">View Credential</a>
-          </div>
+    <!-- Container for certification cards -->
+    <div class="row justify-content-center g-4">
+      <!-- Certification Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="cert-card p-4 rounded-4 text-start shadow-lg mx-auto">
+          <img src="{% static 'ISC2.png' %}" alt="Cyber" class="mb-3" style="height: 40px;">
+          <h5 class="fw-semibold">Cyber Security</h5>
+          <p class="text-muted small mb-1">network, access control, response plans</p>
+          <p class="text-secondary small">May 2025</p>
+          <ul class="small">
+            <li>Security principles</li>
+            <li>Incident response</li>
+            <li>Access control</li>
+          </ul>
+          <a href="{% static 'ISC2(Cybersecurity).png' %}" class="btn btn-sm btn-outline-light mt-2" target="_blank" rel="noopener noreferrer">View Credential</a>
         </div>
       </div>
-      <!--swiper pagination & navigation-->
-      <div class="swiper-pagination mt-4"></div>
 
+      <!-- Certification Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="cert-card p-4 rounded-4 text-start shadow-lg mx-auto">
+          <img src="{% static 'flutter.png' %}" alt="Flutter" class="mb-3" style="height: 40px;">
+          <h5 class="fw-semibold">Flutter</h5>
+          <p class="text-muted small mb-1">completion</p>
+          <p class="text-secondary small">2024</p>
+          <ul class="small">
+            <li>App Development</li>
+            <li>APIs</li>
+            <li>Authentication & Deployment</li>
+          </ul>
+          <a href="{% static 'certificate.pdf' %}" class="btn btn-sm btn-outline-light mt-2" target="_blank" rel="noopener noreferrer">View Credential</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
 
 
 
@@ -248,12 +236,12 @@ home
       <div class="col-md-4">
         <div class="project-card p-3 rounded-4 h-100 shadow-lg">
           <img src=" " class="img-fluid rounded-3 mb-3" alt="decor">
-          <h5 class="fw-bold">AR 🤖</h5>
-          <p class="text-secondary small mb-2">Mobile application to decor room through AR technology</p>
+          <h5 class="fw-bold">keylogger🔐</h5>
+          <p class="text-secondary small mb-2">Python-based keylogger</p>
           <p class="mb-1">
-            <span class="badge bg-purple">Android studio</span>
-            <span class="badge bg-warning text-dark">Java</span>
-            <span class="badge bg-info text-dark">ARcore</span>
+            <span class="badge bg-purple">Python</span>
+            <span class="badge bg-warning text-dark">pynput</span>
+            <span class="badge bg-info text-dark">cryptograpy.fernet</span>
           </p>
           <a href="https://github.com/santosholi01/AR_basedRoomSpacePlanner" class="btn btn-outline-light btn-sm mt-2"
             target="_blank">
@@ -272,7 +260,7 @@ home
             <span class="badge bg-success">ORM</span>
             <span class="badge bg-info text-dark">Bootstrap</span>
           </p>
-          <a href="https://github.com/santosholi01/CRUD_django" class="btn btn-outline-light btn-sm mt-2"
+          <a href="https://github.com/santosholi01/keylogger_python_email" class="btn btn-outline-light btn-sm mt-2"
             target="_blank">
             <i class="bi bi-github"></i> View on GitHub
           </a>
